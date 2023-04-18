@@ -320,3 +320,7 @@ html {
   background-color: #ccc;
   margin: 50px auto;
 }
+
+#canvas h1 {
+  color: rgb(255, 140, 0);
+}
