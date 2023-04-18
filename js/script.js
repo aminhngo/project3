@@ -1,7 +1,7 @@
 function init() {
   //alert('it works');
   var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+  var myLocation = new google.maps.LatLng(16.0611490492588, 108.22748414539657);
   var mapOption = {
     center: myLocation,
 	zoom: 18,
@@ -20,10 +20,14 @@ function init() {
 //    icon: ''
   });
   
-  var contentString = '<h1>IIT PH</h1>';
+  var contentString = '<h1>Dragon Bridge at Da Nang, Vietnam</h1>';
   
   var infowindow = new google.maps.InfoWindow({
     content: contentString;
+  });
+  
+  google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(myMap, marker);
   });
 }
 
