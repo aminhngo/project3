@@ -1,0 +1,303 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
+#main-header {
+  margin-bottom: 20px;
+}
+
+#header-container {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7f00+20,ff961e+41,ffd3ad+72,ffffff+100 */
+  background: rgb(255,127,0); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,127,0,1) 20%, rgba(255,150,30,1) 41%, rgba(255,211,173,1) 72%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,127,0,1) 20%,rgba(255,150,30,1) 41%,rgba(255,211,173,1) 72%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,127,0,1) 20%,rgba(255,150,30,1) 41%,rgba(255,211,173,1) 72%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f00', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  height: 80px;
+}
+
+#itmd-361 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  padding: 30px 0 0 10px;
+}
+
+#main-navbar {
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-size: 20px;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 13px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: rgba(255, 140, 0, 0.6);
+  color: white;
+  font-weight: bold;
+}
+
+#onpage {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 140, 0);
+  text-decoration-thickness: 3px;
+}
+
+/*
+  index css
+*/
+
+#about-me h1 {
+  margin-left: 1%;
+}
+
+#statue {
+  padding-top: 2%;
+  width: 65%;
+  margin: 2% auto;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(255, 140, 0);
+}
+
+#about-me p {
+  float: left;
+  width: 61%;
+  margin: 0.5% 2%;
+}
+
+#myself {
+  width: 35%;
+  height: 35%;
+}
+
+#mphelps {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/*
+  resume css
+*/
+
+#wrapper-resume {
+  width: 920px;
+  margin: 0 auto 50px auto;
+  padding: 0 20px 30px 20px;
+  background-color: #FDF5E6;
+}
+
+#resume-header {
+  text-align: center;
+}
+
+#resume-header p {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+#contact-info {
+  text-align: center;
+}
+
+#edu-section h3 {
+  margin-bottom: 10px;
+}
+
+#edu-section p {
+  margin: 0px;
+  padding: 8px 0px;
+}
+
+.line-crosspage {
+  border-bottom: 1px solid black;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.italic, #id {
+  font-style: italic;
+}
+
+#company1, #company2 {
+  font-weight: bold;
+}
+
+#school1, #school2 {
+  font-weight: bold;
+}
+
+#job1, #job2 {
+  font-weight: bold;
+}
+
+#coursework ul {
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#work-exp h3 {
+  margin-bottom: 10px;
+}
+
+#work-exp p {
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+#work-exp ul {
+  margin: 0px 0px 8px 0px;
+  padding-top: 0px;
+}
+
+#work-exp ul li {
+  padding: 3px 0px;
+}
+
+#skills h3 {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#skills ul {
+  margin: 0px 0px 8px 0px;
+  padding-top: 0px;
+}
+
+#skills ul li {
+  padding: 3px 0px;
+}
+
+#academic-projs {
+  margin-bottom: 220px;
+}
+
+#extra-acts {
+  margin-bottom: 130px;
+}
+
+/*
+  my pet css
+*/
+
+#cat-intro {
+  border: 1.5px solid darkgray;
+  font-family: 'Shantell Sans', cursive;
+  text-align: center;
+}
+
+#cat-intro h1{
+  color: #F5DEB3;
+  font-size: 60px;
+  margin: 10px;
+}
+
+#cat-intro p {
+  font-size: 15px;
+  margin: 10px;
+}
+
+#fixed-yawn img {
+  position: fixed;
+  width: 60px;
+  height: 80px;
+  right: 1%;
+  top: 17%;
+}
+
+#fixed-yawn img:hover {
+  width: 400px;
+  height: 530px;
+}
+
+#p3 {
+  position: fixed;
+  font-size: 11px;
+  color: darkgreen;
+  right: 0%;
+  top: 25%;
+}
+
+#p1 {
+  margin: 20px 10px 10px 10px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#p2 {
+  margin: 20px 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#cat-pics {
+  width: 100%;
+}
+
+#cat-pics img {
+  width: 350px;
+  height: 420px;
+  margin: 10px 0 20px 25px;
+}
+
+#video {
+  margin: 10px 0 30px 25px;
+  width: 450px;
+  height: 590px;
+}
+
+#cat-sleep {
+  width: 500px;
+  height: 350px;
+  margin: 120px 0 120px 150px;
+}
+
+#hpbd {
+  font-size: 2em;
+  font-weight: bold;
+  font-family:  'Shantell Sans', cursive;
+  color: red;
+  text-align: center;
+  margin: 30px auto 50px auto;
+}
