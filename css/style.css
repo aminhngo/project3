@@ -306,3 +306,17 @@ html {
  map css
 */
 
+#wrapper-map {
+  width: 850px;
+  height: 600px;
+  background-color: #FDF5E6;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: #ccc;
+  margin: 50px auto;
+}

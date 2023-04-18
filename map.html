@@ -6,8 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <script async src="js/script.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F=BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
-    async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
 </head>
 <body>
   <header id="main-header">
@@ -25,14 +24,8 @@
       </div>
     </nav>
   </header>
-  <script>
-    var map;
-    function initMap() {
-      map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: -34.397, lng: 150.644},
-        zoom: 8
-      });
-    }
-  </script>
+  <div id="wrapper-map">
+    <div id="canvas"></div>
+  </div>
 </body>
 </html>
