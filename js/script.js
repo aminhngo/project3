@@ -1,7 +1,7 @@
 function init() {
   //alert('it works');
   var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(16.0611490492588, 108.22748414539657);
+  var myLocation = new google.maps.LatLng(40.68940110167675, -74.04447842287736);
   var mapOption = {
     center: myLocation,
 	zoom: 18,
@@ -17,7 +17,8 @@ function init() {
     position: myLocation;
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
-//    icon: ''
+	title: "Click me"
+    icon: 'images/flag.png'
   });
   
   var contentString = '<h1>Dragon Bridge at Da Nang, Vietnam</h1>';
