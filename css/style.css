@@ -324,3 +324,7 @@ html {
 #canvas h1 {
   color: rgb(255, 140, 0);
 }
+
+#canvas p {
+  color: black;
+}
