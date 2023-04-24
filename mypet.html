@@ -9,6 +9,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <style type="text/css">
+    .slideshow {
+      max-width: 400px;
+	  max-height: 600px;
+      margin: 0 auto;
+    }
+	
+	.slideshow ul {
+      margin: 0 auto;
+    }
+
+    #cat-pics img {
+      width: 360px;
+      height: 430px;
+      margin: 10px 20px;
+    }
+  </style>
 </head>
 <body>
   <header id="main-header">
@@ -33,10 +53,14 @@
   </div>
   <p id="p1">Some pictures of my boy since his first day home</p>
   <div id="cat-pics">
-    <img class="float-left" src="images/dayone.jpg" alt="His Day One"> 
-    <img class="float-left" src="images/daythree.jpg" alt="Balcony Chillin">
-    <img class="float-left" src="images/bigboy1.jpg" alt="Big Boy 1">
-    <img class="float-left" src="images/bigboy2.jpg" alt="Big Boy 2">
+    <div class="slideshow">
+      <ul class="bxslider">
+        <li><img src="images/dayone.jpg" alt="His Day One"></li>
+        <li><img src="images/daythree.jpg" alt="Balcony Chillin"></li>
+        <li><img src="images/bigboy1.jpg" alt="Big Boy 1"></li>
+        <li><img src="images/bigboy2.jpg" alt="Big Boy 2"></li>
+      </ul>
+    </div>  
   </div>
   <h3 id="p2" class="clear">Looking violent but he's a friendly and shy boy LOL</h3>
   <video controls id="video" class="float-left">
@@ -48,5 +72,12 @@
     <img src="images/daytwo.jpg" alt="Yawning">
   </div>
   <p id="hpbd" class="clear">HAPPY MOMENTS. HAPPY BIRTHDAY LUCAS!!! LOVE.</p>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        mode: 'fade'
+      });
+    });
+  </script>
 </body>
 </html>
